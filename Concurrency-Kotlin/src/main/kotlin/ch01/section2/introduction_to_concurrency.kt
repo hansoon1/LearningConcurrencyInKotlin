@@ -1,4 +1,4 @@
-package ch01
+package ch01.section2
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async

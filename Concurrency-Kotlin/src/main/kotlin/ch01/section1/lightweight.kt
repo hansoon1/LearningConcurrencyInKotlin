@@ -1,4 +1,4 @@
-package ch01
+package ch01.section1
 
 import kotlinx.coroutines.*
 import kotlin.system.measureTimeMillis
@@ -24,7 +24,7 @@ suspend fun createCoroutines(amount : Int) {
         }
     }
 
-    jobs.forEach{
+    jobs.forEach {
         it.join()
     }
 }
